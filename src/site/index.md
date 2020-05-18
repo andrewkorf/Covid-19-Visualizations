@@ -1,36 +1,25 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+title: Covid-19 Data Visualization Tracker
+subtitle: Tracking data visualizations from around globe during the Covid-19 pandemic
 layout: layouts/base.njk
 ---
 
 
 ## This site is a starting point
 
-From this point we should already have:
-
-- [Eleventy](https://11ty.io) with a skeleton site
-- A date format filter for Nunjucks based on [Luxon](https://moment.github.io/luxon)
-- A tiny CSS pipeline with PostCSS
-- A tiny inline JS pipeline. (<a href="#" class="btn-log">Test a console.log message</a>)
-- JS [search index](/search.json) generator
-- [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
-- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
-
-
 
 ## Post pages
 
 The pages found in in the posts
 
-<ul class="listing">
-{%- for page in collections.post -%}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
-  </li>
-{%- endfor -%}
-</ul>
+## <ul class="listing">
+## {%- for page in collections.post -%}
+## <li>
+##    <a href="{{ page.url }}">{{ page.data.title }}</a> -
+##   <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
+##  </li>
+##{%- endfor -%}
+## </ul>
 
 ## Links from an external data source
 
@@ -38,26 +27,26 @@ TTracking Covid-19 Data Visualizations here:
 
 All visualizations:
 
-- John's Hopkins Global: (https://coronavirus.jhu.edu/map.html)
-- John's Hopkins US: (https://coronavirus.jhu.edu/us-map)
-- Facebook Data for Good Mobility Data: (https://visualization.covid19mobility.org/?date=2020-05-13&dates=2020-04-08_2020-05-13)
-- RT.Live (https://rt.live/)
-- Economist:(https://www.economist.com/graphic-detail/2020/04/17/coronavirus-infections-have-peaked-in-much-of-the-rich-world)
-- Wordometer:(https://www.worldometers.info/coronavirus/)
-- Independent Covid-19 Tracker: (https://trackthevirus.info/)
-- Naccho: (https://covid19-naccho.hub.arcgis.com/)
-- WHO: (https://covid19.who.int/)
-- Nextstrain: (https://nextstrain.org/ncov/asia)
-- Singapore Contact Tracing: (https://public.tableau.com/profile/aimpoint.digital#!/vizhome/AimpointSingaporeCOVID-19NetworkAnalysis/StaticNetworkGraph)
-.
+- John's Hopkins Global: (<a href="https://coronavirus.jhu.edu/map.html"</a>)
+- John's Hopkins US: (<a href="https://coronavirus.jhu.edu/us-map"</a>)
+- Facebook Data for Good Mobility Data: (<a href="https://visualization.covid19mobility.org/?date=2020-05-13&dates=2020-04-08_2020-05-13"</a>)
+- RT.Live (<a href="https://rt.live/"</a>)
+- Economist:(<a href="https://www.economist.com/graphic-detail/2020/04/17/coronavirus-infections-have-peaked-in-much-of-the-rich-world"</a>)
+- Wordometer:(<a href="https://www.worldometers.info/coronavirus/)
+- Independent Covid-19 Tracker: (<a href="https://trackthevirus.info/"</a>)
+- Naccho: (<a href="https://covid19-naccho.hub.arcgis.com/"</a>)
+- WHO: (<a href="https://covid19.who.int/"</a>)
+- Nextstrain: (<a href="https://nextstrain.org/ncov/asia"</a>)
+- Singapore Contact Tracing: (<a href="https://public.tableau.com/profile/aimpoint.digital#!/vizhome/AimpointSingaporeCOVID-19NetworkAnalysis/StaticNetworkGraph"</a>)
 
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
+
+## <ul class="listing">
+##{%- for item in hawksworx.entries.slice(0,5) -%}
+##  <li>
+##    <a href="{{ item.link }}">{{ item.title }}</a>
+##  </li>
+##{%- endfor -%}
+##</ul>
 
 
 ## Prerequisite
@@ -88,14 +77,14 @@ npm install -g netlify-cli
 netlify dev
 ```
 
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
+##A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
 
 - [/.netlify/functions/hello](/.netlify/functions/hello)
 - [/.netlify/functions/fetch-joke](/.netlify/functions/fetch-joke)
 
 ### Redirects and proxies
 
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
+## Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
 
 - [/api/hello](/api/hello)
 - [/api/fetch-joke](/api/fetch-joke)
