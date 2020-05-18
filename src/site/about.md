@@ -4,11 +4,11 @@ layout: layouts/base.njk
 subtitle: About the COVID-19 Data Visualization Tracker
 ---
 
-## Hosting
+## About this site
 
-This site has been developed to track how data visualizations are being used to tell the story of and response to the 2020 COVID-19 crisis.
+This site has been developed to track how data visualizations are being used to tell the story of and response to the 2020 COVID-19 pandemic.
 
-Pleasae send any suggested additions you may have for the site to <a href="mailto:andrew.korf@gmail.com">andrew.korf@gmail.com</a>
+Please send any suggested additions you may have for the site to <a href="mailto:andrew.korf@gmail.com">andrew.korf@gmail.com</a>
 
 <div class="nakedLink">
 
