@@ -34,7 +34,22 @@ The pages found in in the posts
 
 ## Links from an external data source
 
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
+TTracking Covid-19 Data Visualizations here:
+
+All visualizations:
+
+- John's Hopkins Global: (https://coronavirus.jhu.edu/map.html)
+- John's Hopkins US: (https://coronavirus.jhu.edu/us-map)
+- Facebook Data for Good Mobility Data: (https://visualization.covid19mobility.org/?date=2020-05-13&dates=2020-04-08_2020-05-13)
+- RT.Live (https://rt.live/)
+- Economist:(https://www.economist.com/graphic-detail/2020/04/17/coronavirus-infections-have-peaked-in-much-of-the-rich-world)
+- Wordometer:(https://www.worldometers.info/coronavirus/)
+- Independent Covid-19 Tracker: (https://trackthevirus.info/)
+- Naccho: (https://covid19-naccho.hub.arcgis.com/)
+- WHO: (https://covid19.who.int/)
+- Nextstrain: (https://nextstrain.org/ncov/asia)
+- Singapore Contact Tracing: (https://public.tableau.com/profile/aimpoint.digital#!/vizhome/AimpointSingaporeCOVID-19NetworkAnalysis/StaticNetworkGraph)
+.
 
 <ul class="listing">
 {%- for item in hawksworx.entries.slice(0,5) -%}
