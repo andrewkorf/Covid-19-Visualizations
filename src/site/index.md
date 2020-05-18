@@ -1,6 +1,6 @@
 ---
 title: Covid-19 Data Viz Tracker
-subtitle: Tracking data visualizations from around globe during the Covid-19 pandemic
+subtitle: Tracking data visualizations from around the globe during the Covid-19 pandemic
 layout: layouts/base.njk
 ---
 
@@ -24,6 +24,7 @@ Tracking Covid-19 Data Visualizations here:
 <li>WHO: (<a href="https://covid19.who.int/">https://covid19.who.int/</a>)
 <li>Nextstrain: (<a href="https://nextstrain.org/ncov/asia">https://nextstrain.org/ncov/asia</a>)
 <li>Singapore Contact Tracing: (<a href="https://public.tableau.com/profile/aimpoint.digital#!/vizhome/AimpointSingaporeCOVID-19NetworkAnalysis/StaticNetworkGraph">https://public.tableau.com/profile/aimpoint.digital#!/vizhome/AimpointSingaporeCOVID-19NetworkAnalysis/StaticNetworkGraph</a>)
+<li>UCSF Health Atlas: (<a href="https://healthatlas.ucsf.edu/?active=covid_cases_percap&covid=2020-05-16&geography=counties&tracts=&lng=-122.12618778049773&lat=37.64208119839553">https://healthatlas.ucsf.edu/</a>)
 </ul>
 </p>
 
